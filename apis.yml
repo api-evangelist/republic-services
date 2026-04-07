@@ -1,7 +1,11 @@
 aid: republic-services
-url: https://raw.githubusercontent.com/api-evangelist/republic-services/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/republic-services/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.republic-services.com
+description: >-
+  Republic Services is one of the largest providers of non-hazardous solid waste disposal,
+  recycling, and environmental services in the United States.
