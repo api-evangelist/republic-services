@@ -1,0 +1,94 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rsvcs": "https://api-evangelist.github.io/republic-services/vocab#",
+
+    "WasteService": {
+      "@id": "rsvcs:WasteService",
+      "@type": "schema:Service"
+    },
+    "WasteCollection": {
+      "@id": "rsvcs:WasteCollection",
+      "@type": "schema:Service"
+    },
+    "RecyclingService": {
+      "@id": "rsvcs:RecyclingService",
+      "@type": "schema:Service"
+    },
+    "ServiceAccount": {
+      "@id": "rsvcs:ServiceAccount",
+      "@type": "schema:Organization"
+    },
+    "Landfill": {
+      "@id": "rsvcs:Landfill",
+      "@type": "schema:Place"
+    },
+    "RecyclingFacility": {
+      "@id": "rsvcs:RecyclingFacility",
+      "@type": "schema:Place"
+    },
+    "ServiceRoute": {
+      "@id": "rsvcs:ServiceRoute",
+      "@type": "schema:Trip"
+    },
+
+    "accountId": {
+      "@id": "schema:identifier"
+    },
+    "serviceAddress": {
+      "@id": "schema:address",
+      "@type": "schema:PostalAddress"
+    },
+    "serviceType": {
+      "@id": "schema:serviceType"
+    },
+    "collectionSchedule": {
+      "@id": "rsvcs:collectionSchedule"
+    },
+    "nextPickupDate": {
+      "@id": "rsvcs:nextPickupDate",
+      "@type": "xsd:date"
+    },
+    "containerSize": {
+      "@id": "rsvcs:containerSize"
+    },
+    "containerType": {
+      "@id": "rsvcs:containerType"
+    },
+    "wasteWeight": {
+      "@id": "rsvcs:wasteWeight",
+      "@type": "xsd:decimal"
+    },
+    "recyclingRate": {
+      "@id": "rsvcs:recyclingRate",
+      "@type": "xsd:decimal"
+    },
+    "diversionRate": {
+      "@id": "rsvcs:diversionRate",
+      "@type": "xsd:decimal"
+    },
+    "carbonOffset": {
+      "@id": "rsvcs:carbonOffset",
+      "@type": "xsd:decimal"
+    },
+    "billingAmount": {
+      "@id": "schema:price",
+      "@type": "xsd:decimal"
+    },
+    "serviceFrequency": {
+      "@id": "rsvcs:serviceFrequency"
+    },
+    "materialType": {
+      "@id": "rsvcs:materialType"
+    },
+    "facilityName": {
+      "@id": "schema:name"
+    },
+    "facilityLocation": {
+      "@id": "schema:location",
+      "@type": "schema:Place"
+    }
+  }
+}

@@ -1,0 +1,182 @@
+name: Republic Services Vocabulary
+description: >-
+  Vocabulary and taxonomy for Republic Services waste management and environmental
+  services. Covers service types, waste categories, collection operations, recycling,
+  sustainability metrics, and customer account management.
+version: "1.0.0"
+created: "2026-05-02"
+modified: "2026-05-02"
+
+categories:
+  - name: Service Types
+    description: Types of waste and environmental services offered by Republic Services.
+    terms:
+      - term: Residential Collection
+        definition: >-
+          Curbside collection of household waste, recyclables, and yard waste
+          from residential customers on a scheduled basis.
+        related: [Collection Schedule, Container]
+
+      - term: Commercial Collection
+        definition: >-
+          Waste collection services for businesses, commercial properties, and
+          industrial facilities. May include front-load, rear-load, or roll-off containers.
+        related: [Container, Dumpster, Roll-Off]
+
+      - term: Industrial Waste
+        definition: >-
+          Collection and disposal of industrial process waste, manufacturing
+          byproducts, and construction demolition debris.
+
+      - term: Roll-Off Service
+        definition: >-
+          Large open-top containers (10–40 cubic yards) delivered and picked
+          up for renovation, construction, or large cleanup projects.
+        related: [Container]
+
+      - term: Recycling Service
+        definition: >-
+          Single-stream or sorted collection of recyclable materials including
+          paper, cardboard, glass, plastics, and metals.
+        related: [Single-Stream Recycling, Recycling Rate]
+
+      - term: Organics Collection
+        definition: >-
+          Collection of food scraps, food-soiled paper, and other organic
+          materials for composting. Diverts organic waste from landfills.
+        related: [Composting, Diversion Rate]
+
+      - term: Hazardous Waste
+        definition: >-
+          Specialized collection events for household hazardous waste (HHW)
+          such as paints, chemicals, batteries, and electronics.
+
+      - term: Electronic Waste (E-Waste)
+        definition: >-
+          Collection and responsible recycling of electronics including
+          computers, TVs, phones, and appliances.
+
+  - name: Container Types
+    description: Physical containers used for waste collection.
+    terms:
+      - term: Cart
+        definition: >-
+          A wheeled plastic bin (32–96 gallons) provided by Republic Services
+          for residential curbside collection.
+
+      - term: Dumpster
+        definition: >-
+          A large steel container (2–8 cubic yards) placed on commercial
+          properties for regular waste collection.
+
+      - term: Roll-Off Container
+        definition: >-
+          An open-top container (10–40 cubic yards) for large volumes of
+          waste from construction, demolition, or cleanup projects.
+
+      - term: Compactor
+        definition: >-
+          A mechanical device that compresses waste to reduce volume, often
+          used by large commercial accounts.
+
+  - name: Operational Concepts
+    description: Key operational terms in waste management.
+    terms:
+      - term: Collection Route
+        definition: >-
+          A scheduled geographic sequence of stops for a waste collection
+          vehicle. Routes are optimized for efficiency.
+        related: [Service Day, Collection Schedule]
+
+      - term: Service Day
+        definition: >-
+          The day of the week on which curbside collection occurs for a
+          given address.
+        related: [Collection Route]
+
+      - term: Collection Schedule
+        definition: >-
+          The recurring schedule (weekly, bi-weekly, monthly) for waste
+          collection at a service address.
+
+      - term: Holiday Schedule
+        definition: >-
+          Adjustments to collection schedules due to holidays. Republic
+          Services typically delays collection by one day after certain holidays.
+
+      - term: Contamination
+        definition: >-
+          The presence of non-recyclable materials in a recycling bin.
+          Contamination reduces the value and recyclability of materials.
+        related: [Recycling Service]
+
+      - term: Landfill Diversion
+        definition: >-
+          The act of redirecting waste from landfills through recycling,
+          composting, or waste-to-energy processes.
+        related: [Diversion Rate]
+
+  - name: Environmental Metrics
+    description: Sustainability and environmental performance metrics.
+    terms:
+      - term: Diversion Rate
+        definition: >-
+          The percentage of waste diverted from landfills through recycling,
+          composting, or other alternative disposal methods.
+        unit: percentage
+
+      - term: Recycling Rate
+        definition: >-
+          The percentage of waste materials that are recycled rather than
+          sent to landfills or incineration.
+        unit: percentage
+
+      - term: Tons Diverted
+        definition: >-
+          The total weight of materials diverted from landfills over a given
+          period, typically reported monthly or annually.
+        unit: tons
+
+      - term: Carbon Offset
+        definition: >-
+          The estimated reduction in greenhouse gas emissions resulting from
+          recycling and diversion activities.
+        unit: metric tons CO2 equivalent
+
+      - term: Landfill Gas Recovery
+        definition: >-
+          The capture of methane gas produced by decomposing waste in
+          landfills for conversion to energy.
+
+      - term: Single-Stream Recycling
+        definition: >-
+          A recycling system where all recyclables are collected together
+          in one bin without sorting by the customer.
+
+  - name: Customer Account Concepts
+    description: Customer account and billing concepts.
+    terms:
+      - term: Service Agreement
+        definition: >-
+          A contract between Republic Services and a commercial or industrial
+          customer defining service type, frequency, and pricing.
+
+      - term: Account Number
+        definition: >-
+          A unique identifier assigned to each Republic Services customer
+          account used for billing and service management.
+
+      - term: Overage Fee
+        definition: >-
+          An additional charge applied when the weight or volume of waste
+          exceeds the amount included in the service agreement.
+
+      - term: Environmental Fee
+        definition: >-
+          A fee charged to help offset the cost of environmental compliance,
+          equipment, and disposal fees.
+
+      - term: Fuel Surcharge
+        definition: >-
+          A variable fee that adjusts with fuel prices to help offset
+          transportation costs.
