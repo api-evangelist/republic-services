@@ -20,6 +20,10 @@ modified: '2026-05-02'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/RepublicServicesRepository
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/republic-services-inc
   - type: Website
     url: https://www.republic-services.com
   - type: Customer Portal
