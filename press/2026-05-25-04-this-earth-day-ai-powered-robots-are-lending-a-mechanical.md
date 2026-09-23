@@ -1,7 +1,9 @@
 ---
 title: This Earth Day, AI-powered robots are lending a mechanical ...
 url: https://www.instagram.com/reel/DIw_cHJsVeD/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Republic Services" press release artificial intelligence'
 position: 4
 source: serpapi-google

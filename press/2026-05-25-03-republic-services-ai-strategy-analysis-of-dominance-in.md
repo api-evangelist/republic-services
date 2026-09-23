@@ -1,7 +1,9 @@
 ---
 title: 'Republic Services'' AI Strategy: Analysis of Dominance in ...'
 url: https://www.klover.ai/republic-services-ai-strategy-analysis-of-dominance-in-environmental-services-recycling-waste-management-ai/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Republic Services" press release artificial intelligence'
 position: 3
 source: serpapi-google
