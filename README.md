@@ -1,4 +1,4 @@
-# Republic Services (republic-services)
+# Republic Services
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,56 +66,92 @@
 
 Republic Services is one of the largest providers of non-hazardous solid waste disposal, recycling, and environmental services in the United States. As a Fortune 500 company, Republic Services serves millions of customers across residential, commercial, industrial, and environmental segments. The company offers waste collection, recycling processing, composting, landfill operations, and digital customer tools for account management, service scheduling, and environmental reporting.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/republic-services/refs/heads/main/apis.yml)
+**Areas:** Environmental Services · Fortune 500 · Recycling · Waste Management
 
-## Scope
+## Republic Services on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Republic Services is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/republic-services/](https://apis.io/providers/republic-services/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### Published properties
 
-- Environmental Services
-- Fortune 500
-- Recycling
-- Waste Management
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Timestamps
+#### JSON-LD (1)
 
-- **Created:** 2026-03-21
-- **Modified:** 2026-05-02
+Linked-data contexts for the provider's vocabulary.
 
-## APIs
+- [Republic Services Context](https://apis.io/jsonld/republic-services/republic-services-context/)
 
-No public developer APIs have been documented yet. Republic Services operates primarily through customer portals and B2B integrations. Contributions welcome.
+#### Vocabulary (1)
 
-## Common Properties
+The provider's domain terms, defined.
+
+- [Republic Services Vocabulary](https://apis.io/vocabularies/republic-services/republic-services-vocabulary/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Republic Services Domain Security](https://apis.io/security/republic-services/republic-services-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.republic-services.com)
-- [Customer Portal](https://myaccount.republicservices.com)
-- [Business Portal](https://www.republic-services.com/business)
-- [Environmental Solutions](https://www.republic-services.com/municipality)
-- [Recycling](https://www.republic-services.com/recycling)
-- [Digital Innovation](https://www.republic-services.com/digital-innovation)
-- [Sustainability](https://www.republic-services.com/sustainability)
-- [Annual Report](https://ir.republic-services.com)
-- [Press](https://www.republic-services.com/newsroom)
-- [Privacy Policy](https://www.republic-services.com/privacy-policy)
-- [Terms of Service](https://www.republic-services.com/terms-conditions)
+- [Terms of service](https://www.republic-services.com/terms-conditions)
+- [Privacy policy](https://www.republic-services.com/privacy-policy)
+- [GitHub](https://github.com/RepublicServicesRepository)
 
-## Artifacts
+## API Evangelist rating
 
-### JSON-LD Contexts
+**Kin Score 6.4** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-- [republic-services-context.jsonld](json-ld/republic-services-context.jsonld) — Linked data context mapping Republic Services domain terms to schema.org vocabulary
+| Facet | Score |
+|---|---|
+| Discoverability | 40.2 |
+| Contract quality | 10.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
 
-### Vocabulary
+**Agent readiness 0.0** — human-only
 
-- [republic-services-vocabulary.yml](vocabulary/republic-services-vocabulary.yml) — Domain vocabulary covering service types, container types, collection operations, environmental metrics, and customer account concepts
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Maintainers
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
 
-**FN:** Kin Lane
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/republic-services/](https://apis.io/providers/republic-services/).
 
-**Email:** kin@apievangelist.com
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Republic Services: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/republic-services/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
